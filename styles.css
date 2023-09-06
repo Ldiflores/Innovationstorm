@@ -1,0 +1,69 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('laboratorio.jpg'); /* Cambia 'laboratorio.jpg' por la URL de tu imagen de fondo */
+    background-size: cover;
+    background-blur: 5px; /* Agrega un efecto de difuminado a la imagen de fondo */
+    color: #333;
+}
+
+header {
+    background-color: #0074e4;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #0074e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
+}
+
+/* Secciones */
+section {
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+}
+
+h2 {
+    color: #0074e4;
+}
+
+/* Imagen ovalada */
+img {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Fuente personalizada (reemplaza 'TuFuente' con la fuente que desees) */
+/* Ejemplo: */
+/* @font-face {
+    font-family: 'TuFuente';
+    src: url('tu_fuente.ttf') format('truetype');
+} */
